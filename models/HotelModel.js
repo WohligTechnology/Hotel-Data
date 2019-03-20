@@ -98,14 +98,14 @@ export default {
         }
         callback(null, priceData)
     },
-    //no api fro getRealtimeRate till now
+    //no api for getRealtimeRate till now
     getRealtimeRate: (data, callback) => {
         var realTimeRate = {
             message: "This is realTimeRate data"
         }
         callback(null, realTimeRate)
     },
-    //no api fro getRealtimeRateForHotel till now
+    //no api for getRealtimeRateForHotel till now
     getRealtimeRateForHotel: (data, callback) => {
         var realTimeRateForHotel = {
             message: "This is realTimeRateForHotel data"
