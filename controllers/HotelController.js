@@ -10,11 +10,11 @@ router.post("/getContentData", (req, res) => {
     router.post("/getPriceData", (req, res) => {
         HotelModel.getPriceData(req.body, res.callback)
     }),
-    //no api fro getRealtimeRate till now
+    //no api for getRealtimeRate till now
     router.post("/getRealtimeRate", (req, res) => {
         HotelModel.getRealtimeRate(req.body, res.callback)
     }),
-    //no api fro getRealtimeRateForHotel till now
+    //no api for getRealtimeRateForHotel till now
     router.post("/getRealtimeRateForHotel", (req, res) => {
         HotelModel.getRealtimeRateForHotel(req.body, res.callback)
     }),
