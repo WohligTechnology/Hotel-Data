@@ -1,6 +1,6 @@
 var schema = new Schema({
     name: { type: String },
-    email: { type: String, validate: validators.isEmail() },
+    email: { type: String },
     address: { type: String },
     city: { type: String },
     backend: {
