@@ -1,6 +1,6 @@
 export default {
-    port: 3000,
+    port: 90,
     mongodbUrl:
-        "mongodb+srv://admin:admin@cluster0-vjbdu.gcp.mongodb.net/wohligFramework?readPreference=primary",
-    url: "https://wohligframework.wohlig.in"
+        "mongodb://localhost:27017/Travel-IMS?readPreference=primary",
+    url: "https://travelims.wohlig.co.in"
 }
