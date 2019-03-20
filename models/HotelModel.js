@@ -1,5 +1,6 @@
 export default {
     getContentData: (data, callback) => {
+        console.log("ldslds", data)
         var contentData = {
             hotelData: {
                 id: "id",
