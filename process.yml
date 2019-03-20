@@ -1,6 +1,6 @@
 apps:
   - script: "index.js"
-    name: "Travel-IMS --port 3000"
+    name: "Travel-IMS --port 90"
     watch: false
     exec_mode: "cluster"
     env: 
