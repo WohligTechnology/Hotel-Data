@@ -113,28 +113,8 @@ var schema = new Schema({
                     }
                 }
             }
-        },
-        // hotel object end
-        MultiMedia: {
-            Images: {
-                Image: {
-                    type: "array",
-                    items: {
-                        type: "object"
-                    }
-                }
-            },
-            Videos: {
-                Video: {
-                    type: "array",
-                    items: {}
-                }
-            }
-        },
-
-        Features: {
-            Feature: [{ items: { type: String } }]
         }
+        // hotel object end
     },
 
     // content Data end
